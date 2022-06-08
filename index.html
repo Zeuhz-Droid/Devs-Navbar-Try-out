@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Nav bar Test</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <nav class="header-nav">
+                <div class="header-logo-wrapper">
+                    <div class="header-logo">
+                        <figure class="header-logo-photo">
+                            <svg style="visibility: hidden; position: absolute;" width="0" height="0" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                                <defs>
+                                    <filter id="round">
+                                        <feGaussianBlur in="SourceGraphic" stdDeviation="5" result="blur" />    
+                                        <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo" />
+                                        <feComposite in="SourceGraphic" in2="goo" operator="atop"/>
+                                    </filter>
+                                </defs>
+                            </svg>
+                        </figure>
+                        <span class="header-logo-text">fleet</span>
+                    </div>
+
+                    <span class="header-logo-slash">&nbsp;</span>
+
+                    <div class="header-travel">
+                        <a href="#">Travelers</a>
+                        <svg class="icon icon-chevron-down"><use xlink:href="sprite.svg#icon-chevron-down"></use></svg>
+                    </div>
+                </div>
+
+                
+                <div class="header-profile">
+                    <a href="#">Support</a>
+                    <a href="#"><span> <svg class="icon icon-globe"><use xlink:href="sprite.svg#icon-globe"></use></svg></span>
+                        Language
+                    </a>
+                    <a href="#" class="header-action">List your property</a>
+                    <div class="header-notification">
+                        <svg class="icon icon-bell"><use xlink:href="sprite.svg#icon-bell"></use></svg>
+                        <div class="header-notification-color"></div>
+                    </div>
+                    <figure class="header-profile-photo">
+                        <img src="profile img.jfif" alt="profile image" class="header-profile-img">
+                    </figure>
+                </div>
+            </nav>
+
+            <nav class="header-nav" id="phone-nav">
+                <div class="header-logo">
+                    <figure class="header-logo-photo">
+                        <svg style="visibility: hidden; position: absolute;" width="0" height="0" xmlns="http://www.w3.org/2000/svg" version="1.1">
+                            <defs>
+                                <filter id="round">
+                                    <feGaussianBlur in="SourceGraphic" stdDeviation="5" result="blur" />    
+                                    <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo" />
+                                    <feComposite in="SourceGraphic" in2="goo" operator="atop"/>
+                                </filter>
+                            </defs>
+                        </svg>
+                    </figure>
+                    <span class="header-logo-text">fleet</span>
+                </div>
+
+                <div class="header-profile">
+                    <figure class="header-profile-photo">
+                        <img src="profile img.jfif" alt="profile image" class="header-profile-img">
+                    </figure>
+                </div>
+            </nav>
+        </header>        
+    </div>
+</body>
+</html>
