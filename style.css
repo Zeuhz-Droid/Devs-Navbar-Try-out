@@ -172,7 +172,8 @@ body {
 
 /* ALL LINKS */
 
-a {
+a:link,
+a:visited {
     appearance: none;
     text-decoration: none;
     color: inherit;
@@ -180,7 +181,7 @@ a {
 }
 
 a:hover {
-    color: #3c3c3c;
+    color: #9352d8;
 }
 
 #phone-nav {
