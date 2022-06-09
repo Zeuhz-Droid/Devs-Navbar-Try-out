@@ -193,7 +193,7 @@ a:hover {
 }
 
 
-@media screen and (max-width : 960px) {
+@media screen and (max-width : 948px) {
     .header-nav { 
         gap: 5rem;
     }
