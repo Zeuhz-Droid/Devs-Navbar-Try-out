@@ -233,6 +233,11 @@ a:hover {
         box-shadow: 0 1rem 3rem #b7b7b7;
     
     }
+
+    .container {
+        margin: 0;
+     }
+
 }
 
 /* #42c604 */
