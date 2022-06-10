@@ -212,6 +212,7 @@ a:hover {
 
 
     .header {
+        height: 100vh;
         border: 1px solid transparent;
         border-radius: 1rem;
         background-color: #f2f2f2;
